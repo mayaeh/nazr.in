@@ -6,7 +6,8 @@ import LogoImage from '../img/logo_doodle@2x.png'
 
 export default function App() {
   const links = [
-    { title: 'GitHub', url: 'https://github.com/oame/nazr.in' },
+    { title: 'GitHub', url: 'https://github.com/mayaeh/nazr.in' },
+    { title: '@mayaeh (改造)', url: 'https://taruntarun.net/@mayaeh' },
     { title: '@o_ame (コード)', url: 'https://twitter.com/o_ame' },
     { title: '@kahasina9 (ロゴ)', url: 'https://twitter.com/kahasina9' },
     {
@@ -48,7 +49,7 @@ body {
   background: #fff;
   color: #5d5d5d;
   font-family: sans-serif;
-  font-size: 0.4em;
+  font-size: 0.8em;
 }
 
 a {

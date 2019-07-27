@@ -13,7 +13,7 @@ export default function ShortLinkForm() {
       return
     }
 
-    if (!url || url.indexOf('//nazr.in') > -1) {
+    if (!url || url.indexOf('//s.t8n.dev') > -1) {
       setNotification('Invalid URL provided')
       return
     }

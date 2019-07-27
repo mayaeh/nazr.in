@@ -8,8 +8,8 @@ export async function shortenURL(url) {
     throw new Error('Invalid URL provided')
   }
 
-  if (url.indexOf('//nazr.in') > -1) {
-    throw new Error('URLs contain nazr.in can not to be shortened')
+  if (url.indexOf('//s.t8n.dev') > -1) {
+    throw new Error('URLs contain s.t8n.dev can not to be shortened')
   }
 
   const shortLink = new ShortLink()

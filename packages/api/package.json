@@ -6,7 +6,7 @@
   "scripts": {
     "build": "shx rm -rf build && tsc",
     "dev": "npm-run-all build --parallel dev:*",
-    "dev:server": "PORT=5000 nodemon ./bin/server",
+    "dev:server": "PORT=8000 nodemon ./bin/server",
     "dev:tsc": "tsc -w",
     "production:postinstall": "cross-env NODE_ENV=production yarn build",
     "production:server": "node ./bin/server",

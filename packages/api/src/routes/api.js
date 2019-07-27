@@ -8,7 +8,7 @@ APIRouter.route('/short_links').post(async (req, res) => {
   try {
     const shortLink = await shortenURL(req.body.url)
     res.json({
-      shortURL: `https://nazr.in/${shortLink.base62}`,
+      shortURL: `https://s.t8n.dev/${shortLink.base62}`,
     })
   } catch (err) {
     res.status(400)
