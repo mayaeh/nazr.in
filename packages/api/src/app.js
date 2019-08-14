@@ -31,7 +31,7 @@ app.get('/:base62', async (req, res, next) => {
     const shortLink = await ShortLink.findOne({ base62: req.params.base62 })
 
     if (shortLink) {
-      res.redirect(shortLink.url)
+      res.redirect(301, shortLink.url)
     } else {
       res.redirect('/')
     }
