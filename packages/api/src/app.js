@@ -4,12 +4,10 @@ import corser from 'corser'
 import bodyParser from 'body-parser'
 import morgan from 'morgan'
 import mongoose from 'mongoose'
-//import raven from 'raven'
 
 import APIRouter from './routes/api'
 import ShortLink from './models/short-link'
 
-//raven.config(process.env.SENTRY_DSN).install()
 
 // Connect to the MongoDB database
 const databaseURL = process.env.MONGODB_URI || 'mongodb://localhost/nazrin'
