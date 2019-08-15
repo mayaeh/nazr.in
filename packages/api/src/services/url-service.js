@@ -1,4 +1,4 @@
-import { encode as base64Encode } from 'base62'
+import Hashids from 'hashids'
 import { isURL } from 'validator'
 
 import ShortLink from '../models/short-link'
@@ -12,10 +12,14 @@ export async function shortenURL(url) {
     throw new Error('URLs contain s.t8n.dev can not to be shortened')
   }
 
+  const salt = process.env.HASHIDS_SALT || '';
+  const minLength = 5;
+  const hashids = new Hashids(salt, minLength);
+
   const shortLink = new ShortLink()
   await shortLink.save()
   shortLink.url = url
-  shortLink.base62 = base64Encode(shortLink.numerical_id)
+  shortLink.base62 = hashids.encode(shortLink.numerical_id)
   await shortLink.save()
   return shortLink
 }
