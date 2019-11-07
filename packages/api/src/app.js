@@ -35,7 +35,7 @@ const accessLogStream = rfs('access.log', {
   size:'10MB',
   interval: '7d', // rotate weekly
   compress: 'gzip',
-  path: path.join(__dirname, 'log')
+  path: path.join(__dirname, '../log')
 })
 
 // Create an Express app
