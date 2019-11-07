@@ -13,7 +13,7 @@ import ShortLink from './models/short-link'
 
 // Connect to the MongoDB database
 const databaseURL = process.env.MONGODB_URI || 'mongodb://localhost/nazrin'
-mongoose.connect(databaseURL, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false }).catch((err) => {
+mongoose.connect(databaseURL, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false, useUnifiedTopology: true }).catch((err) => {
   console.error(err)
 })
 
