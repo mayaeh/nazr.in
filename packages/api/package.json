@@ -19,10 +19,13 @@
     "dotenv": "^8.0.0",
     "express": "^4.16.3",
     "hashids": "^1.2.2",
+    "moment-timezone": "^0.5.26",
     "mongoose": "^5.5.3",
     "mongoose-sequence": "^5.0.1",
     "morgan": "^1.9.0",
+    "path": "^0.12.7",
     "raven": "^2.4.2",
+    "rotating-file-stream": "^1.4.6",
     "validator": "^10.11.0"
   },
   "devDependencies": {
