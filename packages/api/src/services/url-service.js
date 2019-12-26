@@ -1,4 +1,4 @@
-import Hashids from 'hashids'
+import Hashids from 'hashids/cjs'
 import { isURL } from 'validator'
 
 import ShortLink from '../models/short-link'
