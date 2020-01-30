@@ -26,7 +26,7 @@
     "path": "^0.12.7",
     "raven": "^2.4.2",
     "rotating-file-stream": "^2.0.1",
-    "validator": "^12.1.0"
+    "validator": "^12.2.0"
   },
   "devDependencies": {
     "@types/node": "^13.1.8",
