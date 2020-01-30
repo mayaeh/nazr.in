@@ -25,7 +25,7 @@
     "morgan": "^1.9.0",
     "path": "^0.12.7",
     "raven": "^2.4.2",
-    "rotating-file-stream": "^2.0.1",
+    "rotating-file-stream": "^2.0.2",
     "validator": "^12.2.0"
   },
   "devDependencies": {
