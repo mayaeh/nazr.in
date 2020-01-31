@@ -12,7 +12,7 @@
     "test": "yarn workspaces run test"
   },
   "devDependencies": {
-    "concurrently": "^5.0.2",
+    "concurrently": "^5.1.0",
     "cross-env": "^7.0.0",
     "dotenv": "^8.2.0",
     "husky": "^4.2.1",
