@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "^13.7.1",
-    "ava": "^2.4.0",
+    "ava": "^3.4.0",
     "coveralls": "^3.0.9",
     "nyc": "^15.0.0",
     "supertest": "^4.0.2"
