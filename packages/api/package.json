@@ -32,7 +32,7 @@
     "@types/node": "^14.0.6",
     "ava": "^2.4.0",
     "coveralls": "^3.1.0",
-    "nyc": "^15.0.1",
+    "nyc": "^15.1.0",
     "supertest": "^4.0.2"
   },
   "license": "MIT"
