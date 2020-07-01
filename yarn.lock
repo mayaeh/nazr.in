@@ -9152,10 +9152,10 @@ moment-timezone@^0.5.31:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
-mongodb@3.5.7:
-  version "3.5.7"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.5.7.tgz#6dcfff3bdbf67a53263dcca1647c265eea1d065d"
-  integrity sha512-lMtleRT+vIgY/JhhTn1nyGwnSMmJkJELp+4ZbrjctrnBxuLbj6rmLuJFz8W2xUzUqWmqoyVxJLYuC58ZKpcTYQ==
+mongodb@3.5.9:
+  version "3.5.9"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.5.9.tgz#799b72be8110b7e71a882bb7ce0d84d05429f772"
+  integrity sha512-vXHBY1CsGYcEPoVWhwgxIBeWqP3dSu9RuRDsoLRPTITrcrgm1f0Ubu1xqF9ozMwv53agmEiZm0YGo+7WL3Nbug==
   dependencies:
     bl "^2.2.0"
     bson "^1.1.4"
@@ -9178,14 +9178,14 @@ mongoose-sequence@^5.2.2:
     async "^2.5.0"
     lodash "^4.17.11"
 
-mongoose@^5.9.16:
-  version "5.9.16"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.9.16.tgz#6aa688a6b7b444d10f60ac539b92556cae20475e"
-  integrity sha512-b4HNndgh+dacoLE/2SBF3iBBofeaKL+aGVZH7jnPRc2RXRCplX4sfH5sgoz03ryCSXJ+RQNIfqKAADt/ZBzPDA==
+mongoose@^5.9.20:
+  version "5.9.20"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.9.20.tgz#975255196104ce760386ab439b1dad43caae23b5"
+  integrity sha512-vRP6Csu2obzSl3ed7kTQMrolBNgweiRJ/eBU1PSe/rJfjqWS1oqDE2D1ZPGxkVOsKXs7Gyd84GAXerj8IB2UWg==
   dependencies:
     bson "^1.1.4"
     kareem "2.3.1"
-    mongodb "3.5.7"
+    mongodb "3.5.9"
     mongoose-legacy-pluralize "1.0.2"
     mpath "0.7.0"
     mquery "3.2.2"
