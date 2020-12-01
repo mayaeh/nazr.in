@@ -21,7 +21,7 @@
     "hashids": "^2.2.1",
     "moment-timezone": "^0.5.31",
     "mongoose": "^5.10.2",
-    "mongoose-sequence": "^5.2.2",
+    "mongoose-sequence": "^5.3.0",
     "morgan": "^1.10.0",
     "path": "^0.12.7",
     "raven": "^2.4.2",
