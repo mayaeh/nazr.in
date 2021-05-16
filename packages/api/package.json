@@ -16,7 +16,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "corser": "^2.0.1",
-    "dotenv": "^9.0.1",
+    "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "hashids": "^2.2.8",
     "moment-timezone": "^0.5.33",
