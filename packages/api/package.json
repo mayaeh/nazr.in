@@ -18,7 +18,7 @@
     "corser": "^2.0.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "hashids": "^2.2.8",
+    "hashids": "^2.2.9",
     "moment-timezone": "^0.5.33",
     "mongoose": "^5.13.7",
     "mongoose-sequence": "^5.3.1",
