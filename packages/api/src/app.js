@@ -6,7 +6,7 @@ import morgan from 'morgan'
 import mongoose from 'mongoose'
 import moment from 'moment-timezone'
 import path from 'path'
-import { createStream } from 'rotating-file-stream'
+import rfs from 'rotating-file-stream'
 
 import APIRouter from './routes/api'
 import ShortLink from './models/short-link'
@@ -31,10 +31,10 @@ morgan.format(
 );
 
 // create a rotating write stream
-const accessLogStream = createStream('access.log', {
+const accessLogStream = rfs.createStream('access.log', {
   size:'10MB',
   interval: '7d', // rotate weekly
-  compress: 'gzip',
+  compress: true,
   path: path.join(__dirname, '../log')
 })
 
