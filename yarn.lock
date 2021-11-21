@@ -12766,10 +12766,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rotating-file-stream@^2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/rotating-file-stream/-/rotating-file-stream-2.1.6.tgz#c6400fa289aa2c61a5b4bf7e83a1eeb5542e5bb7"
-  integrity sha512-qS0ndAlDu80MMXeRonqGMXslF0FErzcUSbcXhus3asRG4cvCS79hc5f7s0x4bPAsH6wAwyHVIeARg69VUe3JmQ==
+rotating-file-stream@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rotating-file-stream/-/rotating-file-stream-3.0.2.tgz#2e776cd3b8b734649d2da4e53b29c78389aa773b"
+  integrity sha512-P9PWUHjpkSk3QgDtOXKt/dE6NpjA00Yaa9kgZHf3Vq33hPjm4n42nc4TLeUqRhXsQ51X2Ywpsqtwbk7LlI9sCg==
 
 rsvp@^4.8.4:
   version "4.8.4"
