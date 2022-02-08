@@ -11,6 +11,9 @@
     "start": "yarn workspaces run start",
     "test": "yarn workspaces run test"
   },
+  "resolutions": {
+    "glob-parent": "6.0.2"
+  },
   "devDependencies": {
     "concurrently": "^6.5.1",
     "cross-env": "^7.0.3",
