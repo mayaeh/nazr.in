@@ -7,7 +7,7 @@ import * as urlService from '../build/services/url-service'
 const testURL = 'https://taruntarun.net'
 const databaseURL = 'mongodb://localhost/nazrin_test'
 
-mongoose.connect(databaseURL, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false })
+mongoose.connect(databaseURL)
 
 test.serial('shorten url and retrieve its decoded value', async (t) => {
   const salt = process.env.HASHIDS_SALT || '';
