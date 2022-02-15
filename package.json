@@ -12,6 +12,7 @@
     "test": "yarn workspaces run test"
   },
   "resolutions": {
+    "@types/eslint": "8.4.1",
     "glob-parent": "6.0.2"
   },
   "devDependencies": {
