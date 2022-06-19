@@ -16,7 +16,7 @@
     "glob-parent": "6.0.2"
   },
   "devDependencies": {
-    "concurrently": "^7.2.1",
+    "concurrently": "^7.2.2",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
     "husky": "^4.3.0",
