@@ -2182,17 +2182,17 @@
     "@types/node" "*"
 
 "@types/eslint-scope@^3.7.0":
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.3.tgz#125b88504b61e3c8bc6f870882003253005c3224"
-  integrity sha512-PB3ldyrcnAicT35TWPs5IcwKD8S333HMaa2VVv4+wdvebJkjWuW/xESoB8IwRcog8HYVYamb1g/R31Qv5Bx03g==
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.4.tgz#37fc1223f0786c39627068a12e94d6e6fc61de16"
+  integrity sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==
   dependencies:
     "@types/eslint" "*"
     "@types/estree" "*"
 
-"@types/eslint@*", "@types/eslint@8.4.1", "@types/eslint@^7.28.2":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.4.1.tgz#c48251553e8759db9e656de3efc846954ac32304"
-  integrity sha512-GE44+DNEyxxh2Kc6ro/VkIj+9ma0pO0bwv9+uHSyBrikYOHr8zYcdPvnBOp1aw8s+CjRvuSx7CyWqRrNFQ59mA==
+"@types/eslint@*", "@types/eslint@8.4.6", "@types/eslint@^7.28.2":
+  version "8.4.6"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.4.6.tgz#7976f054c1bccfcf514bff0564c0c41df5c08207"
+  integrity sha512-/fqTbjxyFUaYNO7VcW5g+4npmqVACz1bB7RTHYuLj+PRjw9hrCwrUXVQFpChUS0JsyEFvMZ7U/PfmvWgxJhI9g==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
@@ -7404,12 +7404,7 @@ json-schema-traverse@^1.0.0:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
-json-schema@0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
-  integrity sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
-
-json-schema@^0.4.0:
+json-schema@0.2.3, json-schema@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.4.0.tgz#f7de4cf6efab838ebaeb3236474cbba5a1930ab5"
   integrity sha512-es94M3nTIfsEPisRafak+HDLfHXnKBhV3vU5eqPcS3flIWqcxJWgXHXiey3YrpaNsanY5ei1VoYEbOzijuq9BA==
