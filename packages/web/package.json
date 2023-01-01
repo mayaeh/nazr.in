@@ -11,7 +11,7 @@
     "test": "react-scripts test --env=jsdom"
   },
   "dependencies": {
-    "isomorphic-unfetch": "^3.1.0",
+    "isomorphic-unfetch": "^4.0.1",
     "next": "^12.1.6",
     "normalize.css": "^8.0.0",
     "prop-types": "^15.8.1",
