@@ -13,6 +13,7 @@
   },
   "resolutions": {
     "@types/eslint": "8.4.6",
+    "babel-loader": "9.1.2",
     "glob-parent": "6.0.2",
     "json-schema": "^0.4.0"
   },
