@@ -6798,10 +6798,10 @@ hasha@^5.0.0:
     is-stream "^2.0.0"
     type-fest "^0.8.0"
 
-hashids@^2.2.11:
-  version "2.2.11"
-  resolved "https://registry.yarnpkg.com/hashids/-/hashids-2.2.11.tgz#825d3197742f4326d01645f125e09c026eb76e8b"
-  integrity sha512-e1rAPT5Wa9vf/Dq1eq8LFw5VH2dtKxRf6k9bCw0GLwKL/SRnUphIcqwJWUZ1ki18cdj03nCrpdlJOcyHILQk8Q==
+hashids@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/hashids/-/hashids-2.3.0.tgz#af92c9cdb093c0ed3542cf0dcbd6c289125df387"
+  integrity sha512-ljM73TE/avEhNnazxaj0Dw3BbEUuLC5yYCQ9RSkSUcT4ZSU6ZebdKCIBJ+xT/DnSYW36E9k82GH1Q6MydSIosQ==
 
 he@^1.2.0:
   version "1.2.0"
