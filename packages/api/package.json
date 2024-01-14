@@ -29,7 +29,7 @@
     "rotating-file-stream": "^3.2.1",
     "shx": "^0.3.4",
     "ts-node": "^9.1.1",
-    "typescript": "^4.5.5",
+    "typescript": "^5.3.3",
     "validator": "^13.11.0"
   },
   "devDependencies": {
