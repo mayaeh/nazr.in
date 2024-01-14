@@ -22,7 +22,7 @@
     "hashids": "^2.3.0",
     "moment-timezone": "^0.5.44",
     "mongoose": "^8.0.4",
-    "mongoose-sequence": "^5.3.1",
+    "mongoose-sequence": "^6.0.0",
     "morgan": "^1.10.0",
     "path": "^0.12.7",
     "raven": "^2.4.2",

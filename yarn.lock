@@ -4389,7 +4389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^2.5.0, async@npm:^2.6.2":
+"async@npm:^2.6.2":
   version: 2.6.4
   resolution: "async@npm:2.6.4"
   dependencies:
@@ -4402,6 +4402,13 @@ __metadata:
   version: 3.2.3
   resolution: "async@npm:3.2.3"
   checksum: 109780c846f05109dde14412d916ae4ed6daf6f9aad0c4aa1dcf0d4da775a3a9e35e0e06e4e06ad9fed66f99ca15549da16f2f243c56103b346e9d3bcd9c943f
+  languageName: node
+  linkType: hard
+
+"async@npm:^3.2.5":
+  version: 3.2.5
+  resolution: "async@npm:3.2.5"
+  checksum: 1408287b26c6db67d45cb346e34892cee555b8b59e6c68e6f8c3e495cad5ca13b4f218180e871f3c2ca30df4ab52693b66f2f6ff43644760cab0b2198bda79c1
   languageName: node
   linkType: hard
 
@@ -11293,15 +11300,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongoose-sequence@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "mongoose-sequence@npm:5.3.1"
+"mongoose-sequence@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "mongoose-sequence@npm:6.0.0"
   dependencies:
-    async: "npm:^2.5.0"
-    lodash: "npm:^4.17.20"
+    async: "npm:^3.2.5"
+    lodash: "npm:^4.17.21"
   peerDependencies:
-    mongoose: ">=4"
-  checksum: f0b0dc8f10c7c54212aa7b97af8c4d4acb1a076fe67b6905508b76d6483bbe31ad7aeac43351f798c1c376a1d1c33bc0d082ca9514a6cb019b935e0cee75a40f
+    mongoose: ">=5"
+  checksum: b29026dd0fc90191a26377faf3135f5b603ea8c1812320f950020fad691bc9d5bf22b6ac0d9ab033a28cfe2ff10fa9d908f969f4f2581b6906f14f63aa747f33
   languageName: node
   linkType: hard
 
@@ -11429,7 +11436,7 @@ __metadata:
     hashids: "npm:^2.3.0"
     moment-timezone: "npm:^0.5.44"
     mongoose: "npm:^8.0.4"
-    mongoose-sequence: "npm:^5.3.1"
+    mongoose-sequence: "npm:^6.0.0"
     morgan: "npm:^1.10.0"
     nyc: "npm:^15.1.0"
     path: "npm:^0.12.7"
