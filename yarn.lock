@@ -11441,7 +11441,7 @@ __metadata:
     nyc: "npm:^15.1.0"
     path: "npm:^0.12.7"
     raven: "npm:^2.4.2"
-    rotating-file-stream: "npm:^3.1.1"
+    rotating-file-stream: "npm:^3.2.1"
     shx: "npm:^0.3.4"
     supertest: "npm:^6.3.3"
     ts-node: "npm:^9.1.1"
@@ -14469,10 +14469,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rotating-file-stream@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "rotating-file-stream@npm:3.1.1"
-  checksum: 27df69a3ab47d35de79add1f320efb96813f803953f4f81ff7bf289e7b6a9c64656f5dbe7033bdcf704649560ee5b70973ce464bdc11ad75a89ea1452dded070
+"rotating-file-stream@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "rotating-file-stream@npm:3.2.1"
+  checksum: 3aeaaa916ab2d7f0d71a96fc7aef49260d4488a526b99830dd4fbe00910ea50250eca98f23e9893ef3f2207c7a5a83eaf92eab1fd031e64d1b30caa4e17b08e9
   languageName: node
   linkType: hard
 
