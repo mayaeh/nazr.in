@@ -12316,6 +12316,7 @@ __metadata:
     body-parser: "npm:^1.20.2"
     corser: "npm:^2.0.1"
     coveralls: "npm:^3.1.1"
+    cross-env: "npm:^7.0.3"
     dotenv: "npm:^16.3.1"
     express: "npm:^4.18.2"
     hashids: "npm:^2.3.0"
@@ -12327,7 +12328,10 @@ __metadata:
     path: "npm:^0.12.7"
     raven: "npm:^2.4.2"
     rotating-file-stream: "npm:^3.1.1"
+    shx: "npm:^0.3.4"
     supertest: "npm:^6.3.3"
+    ts-node: "npm:^9.1.1"
+    typescript: "npm:^4.5.5"
     validator: "npm:^13.11.0"
   languageName: unknown
   linkType: soft

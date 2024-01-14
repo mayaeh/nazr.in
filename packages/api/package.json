@@ -16,6 +16,7 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "corser": "^2.0.1",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "hashids": "^2.3.0",
@@ -26,6 +27,9 @@
     "path": "^0.12.7",
     "raven": "^2.4.2",
     "rotating-file-stream": "^3.1.1",
+    "shx": "^0.3.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.5.5",
     "validator": "^13.11.0"
   },
   "devDependencies": {
