@@ -3392,12 +3392,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.19":
-  version: 20.11.19
-  resolution: "@types/node@npm:20.11.19"
+"@types/node@npm:^20.11.28":
+  version: 20.11.28
+  resolution: "@types/node@npm:20.11.28"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: f451ef0a1d78f29c57bad7b77e49ebec945f2a6d0d7a89851d7e185ee9fe7ad94d651c0dfbcb7858c9fa791310c8b40a881e2260f56bd3c1b7e7ae92723373ae
+  checksum: c599745243ed9ae4ca87460f18f88d02ab7424b545136aa504ed7a1d898e3a9bb133c927bcc7e861f79d7f6043ef917a173e780c8a001e129221e92f6d97b0ee
   languageName: node
   linkType: hard
 
@@ -11446,7 +11446,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nazrin-api@workspace:packages/api"
   dependencies:
-    "@types/node": "npm:^20.11.19"
+    "@types/node": "npm:^20.11.28"
     ava: "npm:^2.4.0"
     body-parser: "npm:^1.20.2"
     corser: "npm:^2.0.1"
