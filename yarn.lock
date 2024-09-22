@@ -2887,12 +2887,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mongodb-js/saslprep@npm:^1.1.0":
-  version: 1.1.3
-  resolution: "@mongodb-js/saslprep@npm:1.1.3"
+"@mongodb-js/saslprep@npm:^1.1.5":
+  version: 1.1.9
+  resolution: "@mongodb-js/saslprep@npm:1.1.9"
   dependencies:
     sparse-bitfield: "npm:^3.0.3"
-  checksum: 8bd0db7eb9c8e9fa124f5a27e6255fb276434997d4c1fef18bd833ca53b2993de18d596b9ac767197daf167601e917fa261c6d670cd6e514c88eb820ddab71e6
+  checksum: 2f391db96db7a69e6849cc906e4a0bcd14127ad0493f97fc4134790fa2f0d4af5abcd110382c9d97a996ca31766e0c358c2e08d154f6ddfa06144e2c8a036895
   languageName: node
   linkType: hard
 
@@ -5243,10 +5243,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bson@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "bson@npm:6.2.0"
-  checksum: 90f447dbafc97cf84cadcb75fa0fe1eecdcb396492ce3d47b1fbf2e6e2ce88bfcf92d62e491e1a70c2fc4a1bf7825d6ce53ba75ed3359c772c41b93ff84db410
+"bson@npm:^6.7.0":
+  version: 6.8.0
+  resolution: "bson@npm:6.8.0"
+  checksum: 0503bb2a4ce2e183bd06151bdb983a623cfde05c76fbb5a34e941c594f3a681b52333d61b37c7933b8733b0ba14607b3599d94b46635d90bb96b1e7cec51aa8f
   languageName: node
   linkType: hard
 
@@ -10736,10 +10736,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kareem@npm:2.5.1":
-  version: 2.5.1
-  resolution: "kareem@npm:2.5.1"
-  checksum: 30c6b9a39556d69108cac7cf7f87ca8c9f79d37ac58f2224e18d5e5b21191bbfbacee2070064f3c887bc00229d88b8bc728bcc98b07306edeaba85880f100b24
+"kareem@npm:2.6.3":
+  version: 2.6.3
+  resolution: "kareem@npm:2.6.3"
+  checksum: a5a3e2932cf54a300bf1a9936a2d1695f409066ce213ec3cd26bf788ac20d150edde21877a18b073efa219cab56f0192f710d87d95dde0829ff44666d9b15f76
   languageName: node
   linkType: hard
 
@@ -11653,12 +11653,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:6.3.0":
-  version: 6.3.0
-  resolution: "mongodb@npm:6.3.0"
+"mongodb@npm:6.8.0":
+  version: 6.8.0
+  resolution: "mongodb@npm:6.8.0"
   dependencies:
-    "@mongodb-js/saslprep": "npm:^1.1.0"
-    bson: "npm:^6.2.0"
+    "@mongodb-js/saslprep": "npm:^1.1.5"
+    bson: "npm:^6.7.0"
     mongodb-connection-string-url: "npm:^3.0.0"
   peerDependencies:
     "@aws-sdk/credential-providers": ^3.188.0
@@ -11683,7 +11683,7 @@ __metadata:
       optional: true
     socks:
       optional: true
-  checksum: e846c941b739c503b34c02500db56f966fdb8930420db24214d4305ac987415464ebc9eefaf5da1ffb7521844fc733177433b4cc7ba43c423f55eed4f2670cfe
+  checksum: 5ea1b78d3d7915b7d8e1047f15247e7d831ff79c537c51656b34b5a223f917ab686b96cdf5eca7495a1f0125f7cc4b1355881645138c995a50c42b8b0665e518
   languageName: node
   linkType: hard
 
@@ -11699,18 +11699,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongoose@npm:^8.2.1":
-  version: 8.2.1
-  resolution: "mongoose@npm:8.2.1"
+"mongoose@npm:^8.6.3":
+  version: 8.6.3
+  resolution: "mongoose@npm:8.6.3"
   dependencies:
-    bson: "npm:^6.2.0"
-    kareem: "npm:2.5.1"
-    mongodb: "npm:6.3.0"
+    bson: "npm:^6.7.0"
+    kareem: "npm:2.6.3"
+    mongodb: "npm:6.8.0"
     mpath: "npm:0.9.0"
     mquery: "npm:5.0.0"
     ms: "npm:2.1.3"
-    sift: "npm:16.0.1"
-  checksum: 02afc431fa589b203e0b57fbb7f8b1ec1833f22089b66e34dad1177ce6874afc8a316d6564b5472383c90785b6343d8f4963b591fb18e7a12dd531be384b4ffd
+    sift: "npm:17.1.3"
+  checksum: 60d4333077ed0248916e546efc7f4c8d08d0ad4f69f7aea625c009afeb38089b0d260561ae5bbeaef33f2cff8ce009c0a8774fda3b00be2453bd97083b61e9a7
   languageName: node
   linkType: hard
 
@@ -11822,7 +11822,7 @@ __metadata:
     express: "npm:^4.19.2"
     hashids: "npm:^2.3.0"
     moment-timezone: "npm:^0.5.44"
-    mongoose: "npm:^8.2.1"
+    mongoose: "npm:^8.6.3"
     mongoose-sequence: "npm:^6.0.0"
     morgan: "npm:^1.10.0"
     nyc: "npm:^17.0.0"
@@ -15293,10 +15293,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sift@npm:16.0.1":
-  version: 16.0.1
-  resolution: "sift@npm:16.0.1"
-  checksum: e3d1a68babf240c2b244687a12a32fa43439e8ec0b1bfa2a93bd0e21c50ed3364f935361a42f3fb850dc1c0fd369bc99bc0a6d15456141717ea29c60d9612289
+"sift@npm:17.1.3":
+  version: 17.1.3
+  resolution: "sift@npm:17.1.3"
+  checksum: bb05d1d65cc9b549b402c1366ba1fcf685311808b6d5c2f4fa2f477d7b524218bbf6c99587562d5613d407820a6b5a7cad809f89c3f75c513ff5d8c0e0a0cead
   languageName: node
   linkType: hard
 
