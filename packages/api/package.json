@@ -21,7 +21,7 @@
     "express": "^4.19.2",
     "hashids": "^2.3.0",
     "moment-timezone": "^0.5.44",
-    "mongoose": "^8.2.1",
+    "mongoose": "^8.7.3",
     "mongoose-sequence": "^6.0.0",
     "morgan": "^1.10.0",
     "path": "^0.12.7",
