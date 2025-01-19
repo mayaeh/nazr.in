@@ -12013,7 +12013,7 @@ __metadata:
     husky: "npm:^4.3.0"
     nodemon: "npm:^3.1.7"
     npm-run-all: "npm:^4.1.5"
-    prettier: "npm:^1.19.1"
+    prettier: "npm:^3.4.2"
     shx: "npm:^0.3.4"
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.7.2"
@@ -14037,12 +14037,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^1.19.1":
-  version: 1.19.1
-  resolution: "prettier@npm:1.19.1"
+"prettier@npm:^3.4.2":
+  version: 3.4.2
+  resolution: "prettier@npm:3.4.2"
   bin:
-    prettier: ./bin-prettier.js
-  checksum: 12efb4e486c1e1d006e9eadd3b6585fc6beb9481dc801080fc23d3e75ec599d88c6fea1b40aef167128069e8fe76b4205bb8306ad145575d1b051b8fa70cfaae
+    prettier: bin/prettier.cjs
+  checksum: 99e076a26ed0aba4ebc043880d0f08bbb8c59a4c6641cdee6cdadf2205bdd87aa1d7823f50c3aea41e015e99878d37c58d7b5f0e663bba0ef047f94e36b96446
   languageName: node
   linkType: hard
 
