@@ -27,7 +27,7 @@
     "path": "^0.12.7",
     "raven": "^2.4.2",
     "rotating-file-stream": "^3.2.3",
-    "shx": "^0.3.4",
+    "shx": "^0.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2",
     "validator": "^13.11.0"
