@@ -14,7 +14,7 @@
     "test:coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "body-parser": "^2.2.0",
     "corser": "^2.0.1",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.5",
