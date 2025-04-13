@@ -7120,10 +7120,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.4.5":
-  version: 16.4.5
-  resolution: "dotenv@npm:16.4.5"
-  checksum: 48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
+"dotenv@npm:^16.5.0":
+  version: 16.5.0
+  resolution: "dotenv@npm:16.5.0"
+  checksum: 5bc94c919fbd955bf0ba44d33922a1e93d1078e64a1db5c30faeded1d996e7a83c55332cb8ea4fae5a9ca4d0be44cbceb95c5811e70f9f095298df09d1997dd9
   languageName: node
   linkType: hard
 
@@ -11968,7 +11968,7 @@ __metadata:
     corser: "npm:^2.0.1"
     coveralls: "npm:^3.1.1"
     cross-env: "npm:^7.0.3"
-    dotenv: "npm:^16.4.5"
+    dotenv: "npm:^16.5.0"
     express: "npm:^4.21.1"
     hashids: "npm:^2.3.0"
     moment-timezone: "npm:^0.5.44"
@@ -12009,7 +12009,7 @@ __metadata:
   dependencies:
     concurrently: "npm:^8.2.2"
     cross-env: "npm:^7.0.3"
-    dotenv: "npm:^16.4.5"
+    dotenv: "npm:^16.5.0"
     husky: "npm:^4.3.0"
     nodemon: "npm:^3.1.7"
     npm-run-all: "npm:^4.1.5"
